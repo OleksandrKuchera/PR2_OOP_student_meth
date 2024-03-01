@@ -131,7 +131,7 @@ getAllOperatorFee(order, count) {
         allPhoneFee.sort((a, b) => a - b);
     }
 
-    return allPhoneFeeslice(0, count);
+    return allPhoneFee.slice(0, count);
 }
 
 getTotalPhoneFeeByStudentId(studentId) {
